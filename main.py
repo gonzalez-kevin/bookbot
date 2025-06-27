@@ -9,7 +9,7 @@ if len(sys.argv) != 2:
 def get_book_text(filepath):
     with open(filepath) as f:
         file_contents = f.read()
-              
+        
         return file_contents  
     
 word_counts = word_count(get_book_text(sys.argv[1]))
